@@ -40,7 +40,7 @@ body {
 }
 .gg-container {
   display: grid;
-  grid-template-columns: 88% 6%;
+  grid-template-columns: 10% 78% 6%;
 }
 .dg{
   background-color:  #33ffff;
