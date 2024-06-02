@@ -30,8 +30,8 @@ body {
 
 .gri-container{
   display: grid;
-  grid-template-columns: 90% 10%;
-  background-color:hsl(192, 100%, 26%);
+  grid-template-columns: 60% 35%;
+  height: 48px;
 }
 .gr-container {
   display: grid;
@@ -43,15 +43,16 @@ body {
 }
 .gg-container {
   display: grid;
-  grid-template-columns: 2% 72% 26%;
+  grid-template-columns: 2% 76% 22%;
+  height: 98px;
 }
-.gun-container {
+.iframe-container {
   display: grid;
   grid-template-columns: 10% 90%;
 }
 .dg{
-  background-color: #ace1ff;
-   border:10px ;
+  background-color: #ace1ff; 
+   border: 10px;
    padding-bottom: 4px;
    border-radius:20px;
    border-bottom: 3px solid tomato; 
@@ -99,8 +100,13 @@ li a:hover:not(.active) {
 	background-color: #c9e1ff;
 }
 .sticky {
-    position: sticky;
+	position: sticky;
     top: 0;
+}
+.stiky {
+	position: sticky;
+	top: 0;
+    bottom: 0;
 }
 .grd-container {
   display: grid;
@@ -109,15 +115,17 @@ li a:hover:not(.active) {
 .gd-container {
   display: grid;
   grid-template-columns: 80% 10%;
-}
+}				
+
 .btn-group .button:hover {
   background-color: #3e8e41;
 }
 .iframe {
-  margin-top: -640px;	
+  margin-top: -726px;	
+  overflow: auto;
 }
 .frame {
-  margin-top: -920px;	
+  margin-top: -1020px;	
 }
 .center {
    text-align: center;   
@@ -141,36 +149,53 @@ li a:hover:not(.active) {
 }
 .inj {
 	width: 550px;
-        height: 160px;
+  height: 160px;
 	transition: width 0.5s, height 0.5s;
 	text-align: center;
 }
 .inj:hover {
-    width: 580px;
-    height: 170px;
+	width: 580px;
+  height: 170px;
 }
 .ink {
 	width: 600px;
-       height: 160px;
+  height: 160px;
 	transition: width 0.5s, height 0.5s;
 	text-align: left;
 }
 .ink:hover {
-	width: 650px;
-  height: 170px;
+	width: 624px;
+  height: 180px;
 }
 .h6 {
 	background-color: #9cc4ff;
 }
+.h6-container {
+  display: grid;
+  grid-template-columns: 85% 15%;
+}			
 .button {
-  background-color: #04AA6D; /* Green */
+  background-color: #ebf0fa;
   border: none;
-  border-radius: 20px;
-  color: white;
-  padding: 10px 15px;
+  border-radius: 14px;
+  padding: 10px;
+  margin:3px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 10px;
+  font-size: 12px;
+  cursor: pointer;
   
+}
+.button1 {
+   background-color: #04AA6D; 
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;	
 }
