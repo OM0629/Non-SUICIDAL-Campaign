@@ -200,7 +200,7 @@ li a:hover:not(.active) {
   cursor: pointer;	
 }
 .img {
-	width: 92px;
+	width: 91px;
         height: 134px;
 	transition: width 0.2s, height 0.2s;
 	text-align: left;
