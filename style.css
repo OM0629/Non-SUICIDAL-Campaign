@@ -199,3 +199,13 @@ li a:hover:not(.active) {
   font-size: 16px;
   cursor: pointer;	
 }
+.img {
+	width: 92px;
+        height: 134px;
+	transition: width 0.2s, height 0.2s;
+	text-align: left;
+}
+.img:hover {
+	width: 99px;
+        height: 140px;
+}
